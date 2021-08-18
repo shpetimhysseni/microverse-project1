@@ -19,22 +19,21 @@ body {
   margin: 0;
   text-align: center;
   color: #333333;
-  font-size: 3vw;
+  font-size: 3em;
   margin: 1% 0;
   margin-top: 4%;
 }
 #main p {
   text-align: center;
   color: #333333;
-  font-size: 1vw;
+  font-size: 1em;
   margin-bottom: 2%;
 }
 
 #main #img-div {
   background-color: white;
   margin: auto;
-  width: 95%;
-  height: fit-content;
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -43,4 +42,10 @@ body {
   text-align: center;
   color: #333333;
   margin: 1% 0;
+}
+
+#main #tribute-info #the-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
 }
