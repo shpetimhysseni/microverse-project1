@@ -33,15 +33,24 @@ body {
 #main #img-div {
   background-color: white;
   margin: auto;
-  height: 100%;
   display: flex;
+  flex-shrink: 1;
   justify-content: center;
 }
 
 #main #img-div #img-caption {
   text-align: center;
   color: #333333;
-  margin: 1% 0;
+  margin: 1% auto;
+  width: 80%;
+}
+
+#main #img-div figure {
+  width: 80%;
+}
+
+#main #img-div figure #image {
+  width: 100%;
 }
 
 #main #tribute-info #the-list {
