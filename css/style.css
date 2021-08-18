@@ -52,6 +52,8 @@ body {
 
 #main #img-div figure #image {
   width: 100%;
+  max-width: 100%;
+  display: block;
 }
 
 #main #tribute-info {
@@ -88,4 +90,8 @@ body {
   font-size: 1.05em;
 }
 
-
+#main #link {
+  font-size: 1.4em;
+  font-weight: 600;
+  margin: 4% 0;
+}
